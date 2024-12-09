@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import HomePage from './Home Page/Main';
 
-function App() {
+function App() 
+{
     return (
-        <div className='text-center text-3xl'>JMC CAMPUS CONNECT</div>
+        <HomePage />
     )
 }
 
-export default App
+export default App;
