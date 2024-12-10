@@ -19,7 +19,7 @@ function Define()
                 </button>
             </div>
             <div className='w-1/2 flex justify-end'>
-                <img src={JCC} className='w-[500px] h-[330px]' />
+                <img src={JCC} className='w-[400px] h-[330px]' />
             </div>
         </div>
     )
