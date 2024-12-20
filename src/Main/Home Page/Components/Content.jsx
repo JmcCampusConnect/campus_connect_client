@@ -9,9 +9,6 @@ function Content()
             <div className='w-1/2 p-10'>
                 <p className='mb-3 text-green-800 text-6xl font-cambria font-black'>JMC CAMPUS</p>
                 <p className='text-6xl mb-3 font-cambria font-black'>CONNECT</p>
-                {/* <p className='text-lg font-arial mb-1.5'>JMC Campus Connect is a platform designed to enhance Collaboration,</p>
-                <p className='text-lg font-arial mb-1.5'>Streamline Processes, and Strengthen Connections within</p>
-                <p className='text-lg font-arial'>the Campus Community.</p> */}
                 Empowering Connections, Inspiring Growth, and simplifying your Campus Journey - all in one place.
                 Where opportunities meet collaboration. Dive into a world that brings together everything you need for a fulfilling Campus Experience.
                 Stay Inspired, Stay Informed, and unlock your potential through a platform designed to empower every aspect of your journey.
