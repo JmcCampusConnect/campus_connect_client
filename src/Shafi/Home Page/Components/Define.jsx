@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "../../assets/img.jpg";
-import Jmc from '../../assets/jmclogo.png';
+import Image from "../../../assets/img.jpg";
+import Jmc from '../../../assets/jmclogo.png';
 
 const Home = () => 
 {

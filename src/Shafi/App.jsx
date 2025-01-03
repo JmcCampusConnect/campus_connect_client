@@ -1,14 +1,16 @@
 import React from 'react'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import Main from '../Shafi/Home Page/Main';
-import Login from '../Shafi/Login Page/Login'
+import Define from './Home Page/Components/Define';
+import Login from './Home Page/Components/Nav';
+import Main from './Home Page/Main';
 
 const App = () => {
   return (
     <Router>
         <Routes>
-            <Route path='/' element={<Main/>} />
+            <Route path='/' element={<Define/>} />
             <Route path='login' element={<Login/>} />
+            <Route path='Main' element={<Main/>} />
         </Routes>
     </Router>
 
