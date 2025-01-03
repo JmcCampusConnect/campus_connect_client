@@ -14,7 +14,8 @@
         "@fortawesome/free-solid-svg-icons": "^6.7.1",
         "@fortawesome/react-fontawesome": "^0.2.2",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^7.1.1"
     },
     "devDependencies": {
         "@eslint/js": "^9.15.0",
@@ -29,5 +30,18 @@
         "globals": "^15.12.0",
         "tailwindcss": "^3.4.15",
         "vite": "^6.0.2"
-    }
+    },
+    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+    "main": "eslint.config.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JmcCampusConnect/campus_connect_client.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JmcCampusConnect/campus_connect_client/issues"
+    },
+    "homepage": "https://github.com/JmcCampusConnect/campus_connect_client#readme"
 }
