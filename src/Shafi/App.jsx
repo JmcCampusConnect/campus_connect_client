@@ -1,11 +1,20 @@
-import React from 'react';
-import HomePage from './Home Page/Main';
+import React from 'react'
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Define from './Home Page/Components/Define';
+import Login from './Home Page/Components/Nav';
+import Main from './Home Page/Main';
 
-function App() 
-{
-    return (
-        <HomePage />
-    )
+const App = () => {
+  return (
+    <Router>
+        <Routes>
+            <Route path='/' element={<Define/>} />
+            <Route path='login' element={<Login/>} />
+            <Route path='Main' element={<Main/>} />
+        </Routes>
+    </Router>
+
+  )
 }
 
-export default App;
+export default App
