@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faSignInAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 
 function Login({ activeTab }) 
 {
+    const [ userId, setUserId ] = useState('');
+    const [ password, setPassword ] = useState('');
+
+    const handleLogin = async () => {
+        try {
+            const response = await axios.post('http://localhost:5000/api/login',{
+                user_id: userId,
+                user_pass: password
+            })
+            console.log(response.data)
+        }
+        catch(err) {}
+    }
+
     return (
         <>
             {activeTab === 'Log In' && (
@@ -19,6 +34,8 @@ function Login({ activeTab })
                                 input='text'
                                 className='bg-transparent focus:outline-none text-white text-md placeholder:text-white'
                                 placeholder='USER NAME'
+                                value={userId}
+                                onChange={(e) => setUserId(e.target.value)}
                             />
                         </div>
                     </div>
@@ -31,11 +48,14 @@ function Login({ activeTab })
                                 type='psw'
                                 className='bg-transparent focus:outline-none text-white text-md placeholder:text-white'
                                 placeholder='PASSWORD'
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
                             />
                         </div>
                     </div>
                     <button
                         className="w-full bg-orange-500 p-2.5 mt-5 text-white text-md font-semibold rounded-md shadow-md hover:bg-orange-600 focus:outline-none flex items-center justify-center hover:shadow-slate"
+                        onClick={handleLogin}
                     >
                         <FontAwesomeIcon icon={faSignInAlt} className="mr-3" />
                         <span className='font-cambria text-xl'>LOGIN</span>
