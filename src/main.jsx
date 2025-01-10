@@ -9,13 +9,8 @@ import Shafi from './Shafi/App.jsx';
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         {/* <App /> */}
-<<<<<<< HEAD
-        <Haneef />
-        {/* <Rasak /> */}
-=======
         {/* <Haneef /> */}
         <Rasak />
->>>>>>> rasak
         {/* <Shafi /> */}
     </StrictMode>,
 )
