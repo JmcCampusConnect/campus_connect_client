@@ -1,0 +1,55 @@
+[33mcommit 31b4a4dd2b296ed29be6bfe32e0720a4b6b83c94[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a81750f 9205748
+Author: therasak <abdulrasak4567@gmail.com>
+Date:   Fri Jan 10 19:39:05 2025 +0530
+
+    Rasak Loggin
+
+[33mcommit d1630c49b82403ab6d4e715f2ff05f03e543e47b[m
+Merge: 3cfcf1d c4f70c8
+Author: MohamedJainulHaneef <jainulhaneef03@gmail.com>
+Date:   Sun Jan 5 12:24:20 2025 +0530
+
+    Merge branch 'rasak'
+
+[33mcommit 3393ba0919fbeec5cbd4a7b76342deaba39fb5f0[m[33m ([m[1;31morigin/haneef[m[33m)[m
+Merge: 94d83f0 7b2396b
+Author: MohamedJainulHaneef <jainulhaneef03@gmail.com>
+Date:   Sun Jan 5 12:11:38 2025 +0530
+
+    Files Added
+
+[33mcommit 7b2396ba36bdfffa1dfdd55fb3d28dc85555cd83[m
+Merge: fe45db0 709ce5f
+Author: MohamedJainulHaneef <jainulhaneef03@gmail.com>
+Date:   Sun Jan 5 00:15:53 2025 +0530
+
+    Merge branch 'rasak' of https://github.com/JmcCampusConnect/campus_connect_client into rasak
+
+[33mcommit fe45db07326236a23bc438c0b8c370c7503cdeec[m
+Merge: ea1e510 62b6e9d
+Author: MohamedJainulHaneef <jainulhaneef03@gmail.com>
+Date:   Sun Jan 5 00:14:53 2025 +0530
+
+    Merge branch 'main' of https://github.com/JmcCampusConnect/campus_connect_client into rasak
+
+[33mcommit 709ce5f13af3d545bc408eff8a651f6134249c95[m
+Merge: b1d3f69 a3ac56d
+Author: therasak <abdulrasak4567@gmail.com>
+Date:   Sat Jan 4 15:47:21 2025 +0530
+
+    Merge branch 'main' of https://github.com/JmcCampusConnect/campus_connect_client into rasak
+
+[33mcommit a3ac56d694acfaa2eb1ce4a146ca4b76fa930ebf[m[33m ([m[1;31morigin/shafi[m[33m)[m
+Merge: e843907 a207d33
+Author: Shafi-Mubaraq <shafimubaraqvkr@gmail.com>
+Date:   Sat Jan 4 15:44:16 2025 +0530
+
+    Shafi Merge
+
+[33mcommit b1d3f69bbf807b005e180d5088270592d982a690[m
+Merge: 268c1bc e843907
+Author: therasak <abdulrasak4567@gmail.com>
+Date:   Sat Jan 4 14:04:56 2025 +0530
+
+    Merge branch 'main' of https://github.com/JmcCampusConnect/campus_connect_client into rasak
